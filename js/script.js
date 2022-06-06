@@ -41,9 +41,7 @@ $(document).ready(function(){
 	$('.up_link').removeClass('active');
     $(window).scroll(function(){        
         if($(this).scrollTop()>$('.container').height()){
-            $('.up_link').addClass('active_up_link').fadeIn('slow',function(){
-                
-            });
+            $('.up_link').addClass('active_up_link').fadeIn('slow');
             $('.header').addClass('active_header').fadeIn('slow');
             $('.next_box').addClass('inactive_next_box').fadeIn('slow');
         }else{
